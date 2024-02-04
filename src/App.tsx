@@ -35,9 +35,9 @@ function App() {
         {
           stepForm.map((e,i)=>{
             if(step === i+1){
-              return <StepIndicator isCurrentStep={true} currentStep={i+1} />
+              return <StepIndicator isCurrentStep={true} currentStep={e} />
             }
-            return <StepIndicator isCurrentStep={false} currentStep={i+1} />
+            return <StepIndicator isCurrentStep={false} currentStep={e} />
           })
         }
       </div>
