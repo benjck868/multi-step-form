@@ -31,7 +31,7 @@ function App() {
   return (
     <>
     <div className="flex flex-col">
-      <div className="flex items-center justify-center py-24 bg-[url('./images/bg-sidebar-mobile.svg')] bg-no-repeat bg-cover">
+      <div className="flex items-center justify-center py-24 bg-[url('/images/bg-sidebar-mobile.svg')] bg-no-repeat bg-cover">
         {
           stepForm.map((e,i)=>{
             if(step === i+1){
